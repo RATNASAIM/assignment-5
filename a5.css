@@ -1,0 +1,13 @@
+.HEADING{
+	text-align: center;
+}
+body{
+	background: lightblue;
+
+}
+form:nth-child(even){
+	background-color: white;
+}
+form:nth-child(odd){
+	background-color: lightblue;
+}

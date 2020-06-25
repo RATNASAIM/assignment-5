@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML FORM</title>
+	<link rel="stylesheet" type="text/css" href="a5.css">
+</head>
+<header>
+		<script type="text/javascript" src="a5.js" ></script>
+	</header>
+<body>
+	<h1 class="HEADING">REGISTRATION FORM</h1>
+	
+<form>
+	FIRST NAME:<br>
+<input type="text" name="firstName"  required="This block is important" onblur="checkFirstName();" placeholder="FIRST NAME" id="firstName">&nbsp; <span id="firstNamePrompt"></span><br>
+LAST NAME:<br>
+<input type="text" name="lastName" required="This block is important" onblur="checkLastName();"  placeholder="LAST NAME" id="lastName">&nbsp; <span id="lastNamePrompt"></span><br>
+EMAIL:<br>
+<input type="email" name="email" required="This block is important" onblur="emailcheck();"  placeholder="EMAIL-ID" id=" email">&nbsp;<span id="emailwrite"  pattern="[a-z0-9._%+-]@+[a-z0-9.-]+\.[a-z]{2,3}$"></span><br>
+MOBILE NO:<br>
+<input type="number" name="phone" placeholder="xxxxxxxxxx" required="This block is important" ><br>
+BIRTHDAY:<br>
+<input type="date" name="BIRTHDAY" required="This block is important"><BR>
+DEPARMENT:<br>
+<input type="radio" name="DEPARMENT" value="CSE" checked="">CSE<br>
+<input type="radio" name="DEPARMENT" value="ECE">ECE<br>
+<input type="radio" name="DEPARMENT" value="EEE">EEE<br>
+<input type="radio" name="DEPARMENT" value="IT">IT<br>
+<input type="radio" name="DEPARMENT" value="MECH">MECH<br>
+<input type="radio" name="DEPARMENT" value="AERO">AERO<br>
+BRANCH:<br>
+<input type="radio" name="class">B.E<br>
+<input type="radio" name="class">B.TECH<br>
+<input type="Button" value="Submit" class="Button" onclick="checkOnSubmit();">&nbsp;<div id="finally"></div>
+</form>
+
+</body>
+</html>
