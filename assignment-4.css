@@ -1,0 +1,48 @@
+body{
+	background-color: #000000;
+}
+.abba {
+	color:blue;
+	font-style: bold; 
+}
+  p.hello{
+	color: green;
+	font-style: serif;
+}
+h1{
+	text-align: center;
+}
+#image{
+	height: 300px;
+	width: 300px;
+	float:left;
+
+
+}
+#table{
+	color: green;
+	width: 90%;
+	background-color: white;
+}
+td,th{
+	border: 1px solid ;
+	text-align: center;
+}
+tr:nth-child(even){
+	background:yellow;
+
+}
+tr:nth-child(odd){
+	background: white;
+}
+div.finally{
+	color: red;
+	text-align: center;
+font-style: bold;
+}
+a
+{
+	color:yellow;
+	text-decoration:none;
+	text-align: center;
+}
